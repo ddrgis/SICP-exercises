@@ -3,7 +3,7 @@ install:
 	raco pkg install review
 
 test:
-	raco test sicp
+	raco test src
 
 lint:
 	@echo "check codestyle"
