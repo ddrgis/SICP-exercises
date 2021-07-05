@@ -1,6 +1,8 @@
 #lang sicp
 
+; ===================
 ; Exercise 1.5
+; ===================
 
 ; Ben Bitdiddle has invented a test to determine
 ; whether the interpreter he is faced with is using applicative order evaluation or normal-order evaluation. He defines the
@@ -21,7 +23,10 @@
 ; whether to evaluate the consequent or the alternative expression.)
 
 
-; Answer:
+; ===================
+; Solution
+; ===================
+
 ; applicative order -> infinite loop (because all arguments will be evaluated before the body of test procedure will be executed)
 ; normal order -> 0 (because p procedure will not be executed)
 
